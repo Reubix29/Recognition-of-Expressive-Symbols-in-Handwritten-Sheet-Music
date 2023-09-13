@@ -1,0 +1,29 @@
+ == Dataset of bimodal handwritten music symbols ==
+ == Contact: jcalvo@dlsi.ua.es ==
+
+The dataset is provided in text format. It consists of 10230 lines of
+
+		<label>:<sequence>:<image>
+
+where
+	- label: string representing the label of the data set (eg. proportio_minor)
+	- sequence: the path followed by the e-pen during the trace of the symbol. Each
+			sequence contains a series of 2D points separated by semicolons.
+			Each dimension of the point is separated by a comma. An example
+			of sequence with 3 points:
+
+				2.1238,-2.3007;3.3627,-2.1238;4.6016,-0.3540		
+
+			Note that all points are relative to the first one.
+	- image: the patch of the image under the bounding box of the trace. It has been
+			converted into a 30x30 grayscale image. The values of the pixels
+			has been flattened row by row.
+
+The dataset is freely available for research purposes. If you use it, please consider
+to include the following reference:
+
+Jorge Calvo-Zaragoza, David Rizo and Jose M. Iñesta: 
+"Two (note) heads are better than one: pen-based multimodal interaction with music scores"
+International Society of Music Information Retrieval conference (2016)
+
+
