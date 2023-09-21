@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+
 .Python
 build/
 develop-eggs/
@@ -27,7 +28,7 @@ share/python-wheels/
 *.egg
 MANIFEST
 # ingnores the datasets folder
-
+data/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
