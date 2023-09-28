@@ -30,6 +30,7 @@ MANIFEST
 # ingnores the datasets folder
 /data/
 /models/
+/wandb/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
