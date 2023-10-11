@@ -28,7 +28,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 # ingnores the datasets folder
-data/
+/data/
+/models/
+/wandb/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
